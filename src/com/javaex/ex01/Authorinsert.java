@@ -31,7 +31,7 @@ public class Authorinsert {
 			pstmt = conn.prepareStatement(query);
 			
 			//바인딩
-			pstmt.setString(1, "이문열"); // ?에 값 넣어줌
+			pstmt.setString(1, "강풀"); // ?에 값 넣어줌
 			pstmt.setString(2, "경북 영양");
 			
 			//실행

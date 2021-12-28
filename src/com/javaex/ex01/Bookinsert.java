@@ -31,10 +31,10 @@ public class Bookinsert {
 			pstmt = conn.prepareStatement(query);
 			
 			//바인딩
-			pstmt.setString(1, "토지"); // ?에 값 넣어줌
-			pstmt.setString(2, "마로니에북스");
-			pstmt.setString(3, "2002-08-15");
-			pstmt.setInt(4, 2);
+			pstmt.setString(1, "유시민의 글쓰기 특강"); // ?에 값 넣어줌
+			pstmt.setString(2, "마생각의길");
+			pstmt.setString(3, "2015-04-01");
+			pstmt.setInt(4, 3);
 			
 			//실행
 			int count = pstmt.executeUpdate(); //쿼리문 실행
