@@ -25,7 +25,8 @@ public class BookVoall {
 	public BookVoall() {
 		
 	}
-
+	
+	
 	//메소드gs
 
 	public int getBookId() {
